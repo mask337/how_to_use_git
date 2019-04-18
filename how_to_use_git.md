@@ -56,19 +56,19 @@ Githubで始めたらまずリポジトリ(Gitを組み込んだフォルダ)を
 Initialize this repository with a README というのは、このフォルダに説明書をつけるか聞かれています。つけておくとあとで自分で参照するときなどに便利でしょう。
 そこまで終えたらCreateRepositryを押下しましょう。
 
-![version](.images/06.png)
+![version](https://github.com/mask337/how_to_use_git/blob/master/images/06.png)
 
 そうしたらこのような画面になると思います。これがリポジトリの中身です。
 とりあえず今はWeb上で使うことを想定していますのでそれ以上は後々。
 緑のボタンの左、CreateNewFile, UploadFile, FindFileとありますが、きっとみなさんはすでにものを書き始めていると思いますのでUploadFileを選択しましょう。
 
-![version](.images/07.png)
+![version](https://github.com/mask337/how_to_use_git/blob/master/images/07.png)
 
 次の画面ですが、ここにアップロードするファイルをドラッグ&ドロップしましょう。フォルダでもいいと思うます。
 最後に、Commit Changesとあります。これは後の自分に向けて「ここを変えたよ！」とメモを残しておくものです。
 このコミットというものが前章の図でいう丸で、このコミットの積み重ねがバージョンとして記録されているというわけです。
 
-![version](.images/08.png)
+![version](https://github.com/mask337/how_to_use_git/blob/master/images/08.png)
 
 最後に、ブランチの作り方と統合(マージと呼ぶ)の仕方を説明します。
 リポジトリの画面に戻りまして、先ほどアップロードした時に押したボタンのずっと左、Branch:masterと書かれたところがあります。これは今masterブランチにいると示しています。
@@ -77,14 +77,14 @@ Initialize this repository with a README というのは、このフォルダに
 
 最後に、統合の仕方です。
 
-![version](.images/09.png)
+![version](https://github.com/mask337/how_to_use_git/blob/master/images/09.png)
 
 このようなバーからBranchsを選択しましょう。ブランチの名前が並んでいると思いますので、右端のNew Pull Requestを押下。
 緑色のCreate Pull Requestを押下。もう一度緑のボタン、Merge Pull requestを押下すると、目的のブランチはmasterに統合されます。
 
-![version](.images/10.png)
+![version](https://github.com/mask337/how_to_use_git/blob/master/images/10.png)
 
-![version](.images/11.png)
+![version](https://github.com/mask337/how_to_use_git/blob/master/images/11.png)
 
 ## おわりに
 
